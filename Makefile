@@ -60,7 +60,7 @@ all: $(TARGET) test_runner catch_tests
  
 # Solver link
 $(TARGET): $(OBJS)
-	$(MPICXX) $(SOLVER_LDFLAGS) -o $@ $^ $(MUPARSER_LDFLAG)
+	$(MPICXX) $(SOLVER_LDFLAGS) -o $@ $^ -L$(MPI_LIB) $(MPI_LIBS) $(MUPARSER_LDFLAG)
  
 $(OBJDIR)/%.o: $(SRCDIR)/%.cpp | $(OBJDIR)
 	$(MPICXX) $(SOLVER_CXXFLAGS) -c $< -o $@

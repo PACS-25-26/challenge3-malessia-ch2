@@ -26,7 +26,7 @@
  * ```
  */
 
-#include "../src/jacobi_solver.hpp"
+#include "../include/jacobi_solver.hpp"
 
 #include <catch2/catch_all.hpp>
 #include <mpi.h>

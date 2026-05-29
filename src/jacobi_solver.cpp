@@ -26,7 +26,7 @@
  *
  */
 
-#include "jacobi_solver.hpp"
+#include "../include/jacobi_solver.hpp"
 
 #include <mpi.h>
 #include <omp.h>
