@@ -17,7 +17,7 @@ MPI_INC  := /usr/lib/x86_64-linux-gnu/openmpi/include
 MPI_LIB  := /usr/lib/x86_64-linux-gnu/openmpi/lib
 MPI_LIBS := -lmpi_cxx -lmpi
 
-STD_FLAGS = -std=c++17 -O2 -Wall -Wextra
+STD_FLAGS = -std=c++17 -O2 -Wall
 
 SOLVER_CXXFLAGS = $(STD_FLAGS) -fopenmp -I$(MPI_INC)
 SOLVER_LDFLAGS = -fopenmp -fno-lto
