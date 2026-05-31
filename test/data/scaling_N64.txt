@@ -1,0 +1,5 @@
+# nprocs  wall_time_s  speedup_vs_par1  speedup_vs_serial  efficiency_%  iterations  L2_error  converged
+# serial_baseline: 0.0537811 s
+1  0.0465511  1  1.15531  100  1987  0.0030916  yes
+2  0.0240873  1.9326  2.23276  96.63  1917  0.00300832  yes
+4  0.033367  1.39512  1.61181  34.8781  1857  0.00290977  yes
