@@ -273,5 +273,3 @@ iteration) rather than by implementation inefficiency.
 Speed-up improves significantly with grid size, confirming that the
 parallel implementation is communication-efficient and that MPI overhead
 becomes negligible for large problems.
- 
----
